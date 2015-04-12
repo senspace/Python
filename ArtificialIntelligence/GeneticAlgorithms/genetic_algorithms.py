@@ -37,7 +37,7 @@ if __name__ == "__main__":
     num = 0
     node = init_gene()
 
-    while num < 5:
+    while num < 8:
         node_temp = node
         fit = fitness(node)
         print(num, " colony:")
